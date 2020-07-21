@@ -15,20 +15,22 @@
         <template slot="empty">No results found</template>
       </b-autocomplete>
     </b-field>
-    <div class="block">
-      <b-checkbox v-model="newField.autoIncrement" :native-value="false"
-        >autoincrement</b-checkbox
-      >
-      <b-checkbox v-model="newField.nullable" :native-value="false"
-        >nullable</b-checkbox
-      >
-      <b-checkbox v-model="newField.unsigned" :native-value="false"
-        >unsigned</b-checkbox
+    <div class="flex-wrapper">
+      <div class="checkboxes">
+        <b-checkbox v-model="newField.autoIncrement" :native-value="false"
+          >autoincrement</b-checkbox
+        >
+        <b-checkbox v-model="newField.nullable" :native-value="false"
+          >nullable</b-checkbox
+        >
+        <b-checkbox v-model="newField.unsigned" :native-value="false"
+          >unsigned</b-checkbox
+        >
+      </div>
+      <b-button @click="addField" type="is-primary"
+        ><v-icon name="plus"></v-icon> Add field</b-button
       >
     </div>
-    <b-button class="is-pulled-right" @click="addField" type="is-primary"
-      ><v-icon name="plus"></v-icon> Add field</b-button
-    >
   </div>
 </template>
 
@@ -58,3 +60,11 @@ export default class NewFieldForm extends Vue {
   }
 }
 </script>
+
+<style lang="scss" scoped>
+.flex-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+</style>
