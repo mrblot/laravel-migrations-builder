@@ -1,4 +1,6 @@
 export const fieldTypesArray: string[] = [
+  "string",
+  "integer",
   "id",
   "foreignId",
   "bigIncrements",
@@ -16,7 +18,6 @@ export const fieldTypesArray: string[] = [
   "geometry",
   "geometryCollection",
   "increments",
-  "integer",
   "ipAddress",
   "json",
   "jsonb",
@@ -41,7 +42,6 @@ export const fieldTypesArray: string[] = [
   "smallInteger",
   "softDeletes",
   "softDeletesTz",
-  "string",
   "text",
   "time",
   "timeTz",
