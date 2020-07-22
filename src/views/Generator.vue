@@ -71,7 +71,7 @@
               </li>
             </ul>
             <div v-else class="no-fields my-4 mb-4">
-              You have no existing fields yet. Please add them below 😎
+              You have no existing fields yet. Please add them above 😎
             </div>
           </div>
         </div>
