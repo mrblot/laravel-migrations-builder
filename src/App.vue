@@ -39,6 +39,37 @@ import Footer from "./components/Footer.vue";
   components: {
     Header,
     Footer
+  },
+  metaInfo() {
+    return {
+      meta: [
+        // Twitter Card
+        { name: "twitter:card", content: "summary" },
+        { name: "twitter:title", content: "Laravel Migrations Generator" },
+        { name: "twitter:site", content: "@mrblot4" },
+        {
+          name: "twitter:description",
+          content: "Build your laravel migration files with convenient builder"
+        },
+        {
+          name: "twitter:image",
+          content:
+            "https://laravel-migrations-generator.netlify.app/images/social_thumb.jpg"
+        },
+        // Facebook OpenGraph
+        { property: "og:title", content: "Laravel Migrations Generator" },
+        { property: "og:type", content: "website" },
+        {
+          property: "og:image",
+          content:
+            "https://laravel-migrations-generator.netlify.app/images/social_thumb.jpg"
+        },
+        {
+          property: "og:description",
+          content: "Build your laravel migration files with convenient builder"
+        }
+      ]
+    };
   }
 })
 export default class App extends Vue {}

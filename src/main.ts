@@ -5,9 +5,10 @@ import Buefy from "buefy";
 import "buefy/dist/buefy.css";
 import feather from "vue-icon";
 import Clipboard from "v-clipboard";
+import Meta from "vue-meta";
 
+Vue.use(Meta);
 Vue.use(Clipboard);
-
 Vue.use(feather, "v-icon");
 Vue.use(Buefy);
 
