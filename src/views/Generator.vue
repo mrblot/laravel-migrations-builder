@@ -360,7 +360,10 @@ export default class Generator extends Vue {
   }
 
   private clipboardSuccessHandler() {
-    this.$buefy.snackbar.open(`Code was succesfully pasted to clipboard`);
+    this.$buefy.snackbar.open({
+      message: "Code was succesfully pasted to clipboard",
+      type: "is-white"
+    });
   }
 }
 </script>

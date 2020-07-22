@@ -24,6 +24,10 @@ main {
 label {
   color: white !important;
 }
+.snackbar {
+  background: white !important;
+  color: #2d2d2d !important;
+}
 </style>
 
 <script lang="ts">
