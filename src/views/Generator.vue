@@ -71,7 +71,7 @@
               </li>
             </ul>
             <div v-else class="no-fields my-4 mb-4">
-              You have no existing fields yet. Please add them below 😎
+              You have no existing fields yet. Please add them above 😎
             </div>
           </div>
         </div>
@@ -360,7 +360,10 @@ export default class Generator extends Vue {
   }
 
   private clipboardSuccessHandler() {
-    this.$buefy.snackbar.open(`Code was succesfully pasted to clipboard`);
+    this.$buefy.snackbar.open({
+      message: "Code was succesfully pasted to clipboard",
+      type: "is-white"
+    });
   }
 }
 </script>
