@@ -45,7 +45,7 @@ import Footer from "./components/Footer.vue";
       meta: [
         // Twitter Card
         { name: "twitter:card", content: "summary" },
-        { name: "twitter:title", content: "Laravel Migrations Generator" },
+        { name: "twitter:title", content: "Laravel Migrations Builder" },
         { name: "twitter:site", content: "@mrblot4" },
         {
           name: "twitter:description",
@@ -54,15 +54,15 @@ import Footer from "./components/Footer.vue";
         {
           name: "twitter:image",
           content:
-            "https://laravel-migrations-generator.netlify.app/images/social_thumb.jpg"
+            "https://laravel-migrations-builder.netlify.app/images/social_thumb.jpg"
         },
         // Facebook OpenGraph
-        { property: "og:title", content: "Laravel Migrations Generator" },
+        { property: "og:title", content: "Laravel Migrations Builder" },
         { property: "og:type", content: "website" },
         {
           property: "og:image",
           content:
-            "https://laravel-migrations-generator.netlify.app/images/social_thumb.jpg"
+            "https://laravel-migrations-builder.netlify.app/images/social_thumb.jpg"
         },
         {
           property: "og:description",

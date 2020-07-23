@@ -1,7 +1,7 @@
 <template>
   <header>
     <a href="/" class="pagetitle effect-shine"
-      ><h1>Laravel Migrations Generator</h1></a
+      ><h1>Laravel Migrations Builder</h1></a
     >
   </header>
 </template>
