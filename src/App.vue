@@ -16,6 +16,11 @@ body {
   background: #373737;
   color: white !important;
 }
+#app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
 main {
   flex: 1 0 auto;
   padding: 40px;
