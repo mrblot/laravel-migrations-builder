@@ -11,7 +11,7 @@
     "buefy": "^0.8.20",
     "core-js": "^3.6.5",
     "highlight.js": "^10.4.1",
-    "prismjs": "^1.21.0",
+    "prismjs": "^1.23.0",
     "v-clipboard": "^2.2.3",
     "vue": "^2.6.11",
     "vue-animated-list": "^1.0.2",
